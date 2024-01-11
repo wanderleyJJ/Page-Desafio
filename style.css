@@ -1,0 +1,83 @@
+*{font-family:inter;
+margin: 0%;}
+/*CABEÇALHO*/
+#Cabeçalho{
+    background-color: rgb(48, 45, 45);
+     height: 472px;
+}
+#TituloCB{
+    color: aliceblue;
+    font-size: 60px;
+    padding: 200px 0px 0px 100px;
+}
+#TextCB{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#informativo
+{ display: grid;
+grid-auto-flow: column;
+font-size: 25px;
+text-align: center;
+margin-top: 100px;
+}
+#paragrafos{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    margin-left: 70px;
+    font-size: 20px;
+}
+#m2{
+    margin-right: 80px;
+}
+#AP{
+    display: grid;
+    grid-auto-flow:column;
+    columns: auto;
+}
+#textA{
+    margin-top: 300px;
+    margin-left: 200px;
+}
+#paraA{
+    font-size: 20px;
+}
+#IMG{
+    margin-top: 150px;
+}
+#formulario{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(52, 54, 56); 
+}
+#textform{
+    color: aliceblue;
+    padding: 100px 0px 50px 0px;
+   
+}
+.form{
+    height: 50px;
+    width: 450px;
+    border-radius: 3%;
+    border: 0px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+   
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 3%;
+    background-color: rgb(199, 111, 28);
+    color: aliceblue;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(138, 62, 0);
+    cursor: pointer;
+}
